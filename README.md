@@ -10,11 +10,14 @@ The main purpose of this project is to visualize Citi Bike usage trends in New Y
 A secondary objective is to practice using Tableau to generate meaningful "viz", create dashboards and tell a story. While I will only highlight the COVID analysis, there is a second part of the analysis on some general user demographics, bike usage and top stations to start a journey in the complete workbook.
 
 ### Workbook
-To access the Tableau workbook, download this repo or click **[here](https://public.tableau.com/profile/tianchi.zhang#!/vizhome/NYCCitiBikeAnalysis-TripsDuringCOVID-19/CitiBikeUsageAmidCOVID-19)** to view/download it directly from my Tableau public profile.
+
+#### To access the Tableau workbook, download this repo or click **[here](https://public.tableau.com/profile/tianchi.zhang#!/vizhome/NYCCitiBikeAnalysis-TripsDuringCOVID-19/CitiBikeUsageAmidCOVID-19)** to view/download it directly from my Tableau Public profile.
 
 **Data source**: [Citi Bike NYC System Data](https://www.citibikenyc.com/system-data) --> [Trip History Data](https://s3.amazonaws.com/tripdata/index.html)
 
-*Data was collected from the time period of 2019 to April 2021 (roughly the time of the making of this project). The rationale was to compare data from the year pre-pandemic, during pandemic, and semi-post-pandemic (debatable).*
+*Data from the time period of 2019 to April 2021 (roughly the time of the making of this project) was collected and cleaned with pandas. The rationale was to compare data from the year pre-pandemic, during pandemic, and semi-post-pandemic (debatable). Below are the dimensions to work with. P.S. The CSV files were not uploaded to this repo.*
+
+![Head Rows of Cleaned Data in Dataframe](data/cleaned_data_(csv_not_committed)/data.png)
 
 ## Here are the findings:
 
